@@ -38,5 +38,6 @@ export default css`:host {
 
 bbva-web-card-product {
   max-width: 100%;
+  padding: 0.9rem 2rem;
 }
 `;

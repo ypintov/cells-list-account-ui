@@ -96,10 +96,17 @@ export class CellsListAccountUi extends LitElement {
                           </bbva-web-list-item-bullet>
 
                           <bbva-web-list-item-bullet slot="option">
+                            Saldo contable:
+                            ${this._formatAmount(
+                              account.currency,
+                              account.amountPosted
+                            )}
+                          </bbva-web-list-item-bullet>
+                          <bbva-web-list-item-bullet slot="option">
                             Saldo disponible:
                             ${this._formatAmount(
                               account.currency,
-                              account.amoutAvailable
+                              account.amountAvailable
                             )}
                           </bbva-web-list-item-bullet>
                         </bbva-web-card-product>
