@@ -92,12 +92,11 @@ export class CellsListAccountUi extends LitElement {
                           @button-click=${() => this._onViewDetail(account)}
                         >
                           <bbva-web-list-item-bullet slot="option">
-                            Numero de cuenta: <br />
-                            ${account.number}
+                            Numero de cuenta: ${account.number}
                           </bbva-web-list-item-bullet>
 
                           <bbva-web-list-item-bullet slot="option">
-                            Saldo disponible: <br />
+                            Saldo disponible:
                             ${this._formatAmount(
                               account.currency,
                               account.amoutAvailable
