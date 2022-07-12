@@ -938,6 +938,41 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
+"@bbva-web-components/bbva-core-action@^3.0.0":
+  version "3.0.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-action/-/@bbva-web-components/bbva-core-action-3.0.0.tgz#969975f2a7d1418356174edcbbdbb3ab967b180a"
+  integrity sha1-lpl18qfRQYNWF07cu9uzq5Z7GAo=
+  dependencies:
+    "@bbva-web-components/bbva-core-delegate-attributes-mixin" "^1.1.7"
+    "@bbva-web-components/bbva-core-focus-visible-mixin" "^1.0.17"
+    "@bbva-web-components/bbva-core-form-association-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    lit-element "^2.0.0"
+    lit-html "^1.0.0"
+
+"@bbva-web-components/bbva-core-amount-currency-mixin@^1.0.0":
+  version "1.0.11"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-amount-currency-mixin/-/@bbva-web-components/bbva-core-amount-currency-mixin-1.0.11.tgz#1537a74d0191ef7eb55925a2bdf10c2d3eba9509"
+  integrity sha1-FTenTQGR7361WSWivfEMLT66lQk=
+  dependencies:
+    "@bbva-web-components/bbva-core-amount-mixin" "^1.4.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+
+"@bbva-web-components/bbva-core-amount-format-mixin@^1.0.0":
+  version "1.0.11"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-amount-format-mixin/-/@bbva-web-components/bbva-core-amount-format-mixin-1.0.11.tgz#6cbced8335e218a6b98d2a6a49c325ec0f0d15ef"
+  integrity sha1-bLztgzXiGKa5jSpqScMl7A8NFe8=
+  dependencies:
+    "@bbva-web-components/bbva-core-amount-mixin" "^1.4.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+
+"@bbva-web-components/bbva-core-amount-mixin@^1.0.0", "@bbva-web-components/bbva-core-amount-mixin@^1.4.0":
+  version "1.4.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-amount-mixin/-/@bbva-web-components/bbva-core-amount-mixin-1.4.0.tgz#06275c00be5f02424d0f78ed440280f242553b6d"
+  integrity sha1-BidcAL5fAkJND3jtRAKA8kJVO20=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+
 "@bbva-web-components/bbva-core-collapse@^1.1.7":
   version "1.1.7"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-collapse/-/@bbva-web-components/bbva-core-collapse-1.1.7.tgz#7b561974fd57a20f162076e271ceeb54080e4665"
@@ -960,6 +995,14 @@
     "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
     lit-element "^2.0.0"
 
+"@bbva-web-components/bbva-core-delegate-attributes-mixin@^1.1.7":
+  version "1.1.7"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-delegate-attributes-mixin/-/@bbva-web-components/bbva-core-delegate-attributes-mixin-1.1.7.tgz#466f6bff70221b204213281004f832e00b2f69dc"
+  integrity sha1-Rm9r/3AiGyBCEygQBPgy4Asvadw=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    lit-element "^2.0.0"
+
 "@bbva-web-components/bbva-core-demo-helper@^1.0.0":
   version "1.9.2"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-demo-helper/-/@bbva-web-components/bbva-core-demo-helper-1.9.2.tgz#53f802f2ba5e26b10700dde643e907208e88c1ac"
@@ -973,7 +1016,7 @@
     lit-element "^2.0.0"
     lit-html "^1.0.0"
 
-"@bbva-web-components/bbva-core-focus-visible-mixin@^1.0.17":
+"@bbva-web-components/bbva-core-focus-visible-mixin@^1.0.0", "@bbva-web-components/bbva-core-focus-visible-mixin@^1.0.17":
   version "1.0.17"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-focus-visible-mixin/-/@bbva-web-components/bbva-core-focus-visible-mixin-1.0.17.tgz#02f05f88d8a4687ebbfefcfa1577b706eb1247a6"
   integrity sha1-AvBfiNikaH67/vz6FXe3BusSR6Y=
@@ -988,13 +1031,31 @@
     "@bbva-web-components/bbva-core-lit-helpers" "^1.2.1"
     lit-element "^2.0.0"
 
-"@bbva-web-components/bbva-core-heading@^1.0.18":
+"@bbva-web-components/bbva-core-generic-dp@^1.2.7":
+  version "1.2.7"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-generic-dp/-/@bbva-web-components/bbva-core-generic-dp-1.2.7.tgz#267637b1b90921c6c5ad1c087fe21107438a1f6a"
+  integrity sha1-JnY3sbkJIcbFrRwIf+IRB0OKH2o=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    lit-element "^2.0.0"
+    rxjs "^6.5.2"
+
+"@bbva-web-components/bbva-core-heading@^1.0.0", "@bbva-web-components/bbva-core-heading@^1.0.18":
   version "1.0.18"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-heading/-/@bbva-web-components/bbva-core-heading-1.0.18.tgz#7ee801e63fe4f4d5fcb951a65ec2256f520c24d4"
   integrity sha1-fugB5j/k9NX8uVGmXsIlb1IMJNQ=
   dependencies:
     "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
     "@bbva-web-components/bbva-foundations-styles" "^1.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-core-icon@^1.0.0":
+  version "1.5.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-icon/-/@bbva-web-components/bbva-core-icon-1.5.1.tgz#151bc279f651db4a729e17423296f21f96288973"
+  integrity sha1-FRvCefZR20pynhdCMpbyH5YoiXM=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    "@bbva-web-components/bbva-core-meta" "^1.2.5"
     lit-element "^2.0.0"
 
 "@bbva-web-components/bbva-core-iconset@^1.0.0":
@@ -1004,6 +1065,24 @@
   dependencies:
     "@bbva-web-components/bbva-core-meta" "^1.2.5"
     lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-core-image@^1.0.0":
+  version "1.0.18"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-image/-/@bbva-web-components/bbva-core-image-1.0.18.tgz#38869caaf8e4da8e53af934c48ad894a7b865866"
+  integrity sha1-OIacqvjk2o5Tr5NMSK2JSnuGWGY=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    lit-element "^2.0.0"
+    lit-html "^1.0.0"
+
+"@bbva-web-components/bbva-core-intl-mixin@^1.0.0":
+  version "1.4.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-intl-mixin/-/@bbva-web-components/bbva-core-intl-mixin-1.4.0.tgz#dd541488692e1a3067c1665017017ed511fa688a"
+  integrity sha1-3VQUiGkuGjBnwWZQFwF+1RH6aIo=
+  dependencies:
+    "@bbva-web-components/bbva-core-generic-dp" "^1.2.7"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
+    intl-messageformat "~8.0.0"
 
 "@bbva-web-components/bbva-core-lit-helpers@^1.0.0", "@bbva-web-components/bbva-core-lit-helpers@^1.0.4", "@bbva-web-components/bbva-core-lit-helpers@^1.2.1", "@bbva-web-components/bbva-core-lit-helpers@^1.4.0":
   version "1.4.0"
@@ -1027,7 +1106,7 @@
     markdown-it "^10.0.0"
     prismjs "^1.19.0"
 
-"@bbva-web-components/bbva-core-meta@^1.2.5":
+"@bbva-web-components/bbva-core-meta@^1.0.0", "@bbva-web-components/bbva-core-meta@^1.2.5":
   version "1.2.5"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-meta/-/@bbva-web-components/bbva-core-meta-1.2.5.tgz#bd49114953fcdf1c95bba4d06028e914ab0d9fca"
   integrity sha1-vUkRSVP83xyVu6TQYCjpFKsNn8o=
@@ -1058,7 +1137,7 @@
     lit-element "^2.0.0"
     lit-html "^1.0.0"
 
-"@bbva-web-components/bbva-core-slots-content-mixin@^1.0.22":
+"@bbva-web-components/bbva-core-slots-content-mixin@^1.0.0", "@bbva-web-components/bbva-core-slots-content-mixin@^1.0.22":
   version "1.0.22"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-core-slots-content-mixin/-/@bbva-web-components/bbva-core-slots-content-mixin-1.0.22.tgz#72aafcff630ad1e0260f9cd58c3efb2d517e2139"
   integrity sha1-cqr8/2MK0eAmD5zVjD77LVF+ITk=
@@ -1072,6 +1151,14 @@
   dependencies:
     "@bbva-web-components/bbva-core-lit-helpers" "^1.4.0"
     lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-foundations-categories@^1.0.0":
+  version "1.5.5"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-foundations-categories/-/@bbva-web-components/bbva-foundations-categories-1.5.5.tgz#bbf1af669a8bbc709ae1ca974bd551a9f00f98ee"
+  integrity sha1-u/GvZpqLvHCa4cqXS9VRqfAPmO4=
+  dependencies:
+    "@bbva-web-components/bbva-foundations-icons" "^1.14.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.9.2"
 
 "@bbva-web-components/bbva-foundations-ellipsis@^1.0.2":
   version "1.0.2"
@@ -1087,7 +1174,7 @@
   dependencies:
     lit-element "^2.0.0"
 
-"@bbva-web-components/bbva-foundations-icons@^1.0.0":
+"@bbva-web-components/bbva-foundations-icons@^1.0.0", "@bbva-web-components/bbva-foundations-icons@^1.14.0":
   version "1.14.0"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-foundations-icons/-/@bbva-web-components/bbva-foundations-icons-1.14.0.tgz#69eca54f11522c49a77116492cde27a5bc9754cb"
   integrity sha1-aeylTxFSLEmncRZJLN4npbyXVMs=
@@ -1152,6 +1239,146 @@
     esm "^3.2.25"
     lit-element "^2.0.0"
 
+"@bbva-web-components/bbva-web-amount@^1.0.0":
+  version "1.3.3"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-amount/-/@bbva-web-components/bbva-web-amount-1.3.3.tgz#e5299e618c3c91f1caba90bef432690a180f46c7"
+  integrity sha1-5SmeYYw8kfHKupC+9DJpChgPRsc=
+  dependencies:
+    "@bbva-web-components/bbva-core-amount-currency-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-amount-format-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-badge-category@^1.0.4":
+  version "1.0.4"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-badge-category/-/@bbva-web-components/bbva-web-badge-category-1.0.4.tgz#0dea7c29e710843152e235f68077fd3d5bf44e7a"
+  integrity sha1-Dep8KecQhDFS4jX2gHf9PVv0Tno=
+  dependencies:
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-intl-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-categories" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-badge-default@^1.0.0":
+  version "1.1.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-badge-default/-/@bbva-web-components/bbva-web-badge-default-1.1.1.tgz#d6644562bd8b31d07dfa4362bfcc40abbffc48f1"
+  integrity sha1-1mRFYr2LMdB9+kNiv8xAq7/8SPE=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-badge-highlight@^1.0.6":
+  version "1.0.6"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-badge-highlight/-/@bbva-web-components/bbva-web-badge-highlight-1.0.6.tgz#8e124ceb1082d93a0946410ebf4fcf8e2ffee28b"
+  integrity sha1-jhJM6xCC2ToJRkEOv0/Pji/+4os=
+  dependencies:
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-badge-variability@^1.2.1":
+  version "1.2.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-badge-variability/-/@bbva-web-components/bbva-web-badge-variability-1.2.1.tgz#be20526de01524f47fde2b4ebe77ee2f79338816"
+  integrity sha1-viBSbeAVJPR/3itOvnfuL3kziBY=
+  dependencies:
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-intl-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-icons" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-button-default@^1.5.0":
+  version "1.5.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-button-default/-/@bbva-web-components/bbva-web-button-default-1.5.0.tgz#59b3f5354c3e81c703c43782ff9ce8fde1126b04"
+  integrity sha1-WbP1NUw+gccDxDeC/5zo/eESawQ=
+  dependencies:
+    "@bbva-web-components/bbva-core-action" "^3.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-card-product@^1.4.1":
+  version "1.4.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-card-product/-/@bbva-web-components/bbva-web-card-product-1.4.1.tgz#b2d2a22cefcccea5f2ab3643b122fecb3a99e6ea"
+  integrity sha1-stKiLO/MzqXyqzZDsSL+yzqZ5uo=
+  dependencies:
+    "@bbva-web-components/bbva-core-amount-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-focus-visible-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-heading" "^1.0.0"
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-image" "^1.0.0"
+    "@bbva-web-components/bbva-core-intl-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-core-slots-content-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-icons" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    "@bbva-web-components/bbva-web-amount" "^1.0.0"
+    "@bbva-web-components/bbva-web-badge-category" "^1.0.4"
+    "@bbva-web-components/bbva-web-badge-default" "^1.0.0"
+    "@bbva-web-components/bbva-web-badge-highlight" "^1.0.6"
+    "@bbva-web-components/bbva-web-button-default" "^1.5.0"
+    "@bbva-web-components/bbva-web-date" "^1.0.0"
+    "@bbva-web-components/bbva-web-link" "^1.6.0"
+    "@bbva-web-components/bbva-web-list-item-bullet" "^1.2.0"
+    "@bbva-web-components/bbva-web-list-item-simple" "^1.1.7"
+    lit-element "^2.0.0"
+    lit-html "^1.0.0"
+
+"@bbva-web-components/bbva-web-date@^1.0.0":
+  version "1.0.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-date/-/@bbva-web-components/bbva-web-date-1.0.1.tgz#247162929cbcffa0952b604ee8b037d3e0c8439f"
+  integrity sha1-JHFikpy8/6CVK2BO6LA30+DIQ58=
+  dependencies:
+    "@bbva-web-components/bbva-core-intl-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-core-meta" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    dayjs "^1.10.5"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-link@^1.6.0":
+  version "1.6.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-link/-/@bbva-web-components/bbva-web-link-1.6.0.tgz#d17469d246b412d8d68d56ac93fa1d5a44c7ed64"
+  integrity sha1-0XRp0ka0EtjWjVask/odWkTH7WQ=
+  dependencies:
+    "@bbva-web-components/bbva-core-action" "^3.0.0"
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    "@open-wc/lit-helpers" "^0.3.0"
+    lit-element "^2.0.0"
+
+"@bbva-web-components/bbva-web-list-item-bullet@^1.2.0":
+  version "1.2.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-list-item-bullet/-/@bbva-web-components/bbva-web-list-item-bullet-1.2.0.tgz#d8fe43152328c5b1ab273253dfebcc0e908faf92"
+  integrity sha1-2P5DFSMoxbGrJzJT3+vMDpCPr5I=
+  dependencies:
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-icons" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    lit-element "^2.5.1"
+
+"@bbva-web-components/bbva-web-list-item-simple@^1.1.7":
+  version "1.1.7"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@bbva-web-components/bbva-web-list-item-simple/-/@bbva-web-components/bbva-web-list-item-simple-1.1.7.tgz#9a256f31370700d241143ae237b44bdc5673ece0"
+  integrity sha1-miVvMTcHANJBFDriN7RL3FZz7OA=
+  dependencies:
+    "@bbva-web-components/bbva-core-icon" "^1.0.0"
+    "@bbva-web-components/bbva-core-intl-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-core-lit-helpers" "^1.0.0"
+    "@bbva-web-components/bbva-core-slots-content-mixin" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-icons" "^1.0.0"
+    "@bbva-web-components/bbva-foundations-styles" "^2.0.0"
+    "@bbva-web-components/bbva-web-badge-variability" "^1.2.1"
+    "@bbva-web-components/bbva-web-link" "^1.6.0"
+    lit-element "^2.0.0"
+
 "@cells/cells-component-core@^3.1.0":
   version "3.2.0"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@cells/cells-component-core/-/@cells/cells-component-core-3.2.0.tgz#5abf02860adbf17a7188b38007ff6744afb17e5b"
@@ -1204,6 +1431,18 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@formatjs/intl-unified-numberformat@^3.3.3":
+  version "3.3.7"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@formatjs/intl-unified-numberformat/-/intl-unified-numberformat-3.3.7.tgz#9995a24568908188e716d81a1de5b702b2ee00e2"
+  integrity sha1-mZWiRWiQgYjnFtgaHeW3ArLuAOI=
+  dependencies:
+    "@formatjs/intl-utils" "^2.3.0"
+
+"@formatjs/intl-utils@^2.3.0":
+  version "2.3.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@formatjs/intl-utils/-/intl-utils-2.3.0.tgz#2dc8c57044de0340eb53a7ba602e59abf80dc799"
+  integrity sha1-LcjFcETeA0DrU6e6YC5Zq/gNx5k=
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -1382,6 +1621,11 @@
     polyfills-loader "^1.7.4"
     portfinder "^1.0.21"
     request "^2.88.0"
+
+"@open-wc/lit-helpers@^0.3.0":
+  version "0.3.12"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/@open-wc/lit-helpers/-/lit-helpers-0.3.12.tgz#11bf0731185a88ca50ed740908e91fd4436ba69d"
+  integrity sha1-Eb8HMRhaiMpQ7XQJCOkf1ENrpp0=
 
 "@open-wc/scoped-elements@^1.2.4":
   version "1.3.4"
@@ -2948,6 +3192,11 @@ date-format@^4.0.10, date-format@^4.0.11:
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/date-format/-/date-format-4.0.11.tgz#ae0d1e069d7f0687938fd06f98c12f3a6276e526"
   integrity sha1-rg0eBp1/BoeTj9BvmMEvOmJ25SY=
 
+dayjs@^1.10.5:
+  version "1.11.3"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
+  integrity sha1-R1TraUpiQFe5rSIktnsV1VJYklg=
+
 debounce@^1.2.0:
   version "1.2.1"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
@@ -4416,10 +4665,30 @@ intersection-observer@^0.7.0:
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
   integrity sha1-7ha+6XjbU1FurS8KgVSwm0ALvck=
 
+intl-format-cache@^4.2.21:
+  version "4.3.1"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/intl-format-cache/-/intl-format-cache-4.3.1.tgz#484d31a9872161e6c02139349b259a6229ade377"
+  integrity sha1-SE0xqYchYebAITk0myWaYimt43c=
+
 intl-list-format@^1.0.3:
   version "1.0.3"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/intl-list-format/-/intl-list-format-1.0.3.tgz#f9b3c3d69b4647d63218f49aae5d3816c6e55b5b"
   integrity sha1-+bPD1ptGR9YyGPSarl04FsblW1s=
+
+intl-messageformat-parser@^4.0.0:
+  version "4.1.4"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/intl-messageformat-parser/-/intl-messageformat-parser-4.1.4.tgz#98f3415e6990d44bebf2e0ad8e4cfbacf3ef5ed3"
+  integrity sha1-mPNBXmmQ1Evr8uCtjkz7rPPvXtM=
+  dependencies:
+    "@formatjs/intl-unified-numberformat" "^3.3.3"
+
+intl-messageformat@~8.0.0:
+  version "8.0.0"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/intl-messageformat/-/intl-messageformat-8.0.0.tgz#eb4fe90059288d60b48156e95a2abcdd14d492f1"
+  integrity sha1-60/pAFkojWC0gVbpWiq83RTUkvE=
+  dependencies:
+    intl-format-cache "^4.2.21"
+    intl-messageformat-parser "^4.0.0"
 
 ip@^1.1.5:
   version "1.1.8"
@@ -5168,7 +5437,7 @@ linkify-it@^2.0.0:
   dependencies:
     uc.micro "^1.0.1"
 
-lit-element@^2.0.0, lit-element@^2.2.1:
+lit-element@^2.0.0, lit-element@^2.2.1, lit-element@^2.5.1:
   version "2.5.1"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/lit-element/-/lit-element-2.5.1.tgz#3fa74b121a6cd22902409ae3859b7847d01aa6b6"
   integrity sha1-P6dLEhps0ikCQJrjhZt4R9AaprY=
@@ -6448,6 +6717,13 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+rxjs@^6.5.2:
+  version "6.6.7"
+  resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
+  integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
+  dependencies:
+    tslib "^1.9.0"
+
 safe-buffer@5.2.1, safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
@@ -7075,7 +7351,7 @@ tsconfig-paths@^3.14.1:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^1.11.1:
+tslib@^1.11.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=

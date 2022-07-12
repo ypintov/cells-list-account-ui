@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>cells-list-account-ui demo</title>
     <script src="../build/webcomponents-loader.js"></script>
     <script src="../build/scoping-ambients-shim.min.js"></script>
@@ -10,11 +10,11 @@
     <script>
       {
         const _customElementsDefine = window.customElements.define;
-        window.customElements.define = (name, cl, conf) => {
-          if (customElements.get(name)) {
-            console.warn(`${name} has been defined twice`);
+        window.customElements.define = (_name, cl, conf) => {
+          if (customElements.get(_name)) {
+            console.warn(`${_name} has been defined twice`);
           } else {
-            _customElementsDefine.call(window.customElements, name, cl, conf);
+            _customElementsDefine.call(window.customElements, _name, cl, conf);
           }
         };
       }
@@ -26,10 +26,33 @@
   </head>
 
   <body>
-    <bbva-core-demo-helper>
+    <bbva-core-demo-helper events='["view-detail-account"]'>
       <bbva-core-demo-case heading="Basic" description="Default specs">
         <template>
-          <cells-list-account-ui></cells-list-account-ui>
+          <cells-list-account-ui id="component"></cells-list-account-ui>
+          <script>
+            const component = document.querySelector('#component');
+            let data = [
+              {
+                id: 'U0dJQ3NneXRRNlZCWTVuZnpHS3E',
+                number: '00110241000299979661',
+                currency: 'PEN',
+                productName: 'CUENTA FACIL',
+                amoutAvailable: 2834.14,
+              },
+
+              {
+                id: 'b1dVSldRdDhXa3luTnFVSWdxTjg',
+                number: '00110814000200089516',
+                currency: 'PEN',
+                productName: 'CUENTA INDEPENDENCIA',
+                amoutAvailable: 0.0,
+              },
+            ];
+
+            //data = [];
+            component.data = data;
+          </script>
         </template>
       </bbva-core-demo-case>
     </bbva-core-demo-helper>
