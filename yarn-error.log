@@ -1,0 +1,46 @@
+Arguments: 
+  /home/yojan/.nvm/versions/node/v12.22.1/bin/node /home/yojan/.nvm/versions/node/v12.22.1/bin/yarn
+
+PATH: 
+  /home/yojan/.nvm/versions/node/v12.22.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: /home/yojan/Trabajo/bbva/capacitacion/cells/techu1-2022/cells-list-account-ui/node_modules/core-js-pure: ENOSPC: no space left on device, mkdir '/tmp/yarn--1657584317127-0.0699003101568072'
+
+npm manifest: 
+  {
+    "name": "@bbva-web-components/cells-list-account-ui",
+    "version": "1.0.0-rc.1",
+    "description": "",
+    "keywords": [],
+    "main": "index.js",
+    "files": [
+      "/src/",
+      "/locales/",
+      "*.js",
+      "!**/*.scss"
+    ],
+    "dependencies": {
+      "@bbva-web-components/bbva-foundations-styles": "^2.3.5",
+      "@bbva-web-components/bbva-core-lit-helpers": "^1.0.4",
+      "lit-element": "^2.0.0"
+    },
+    "devDependencies": {
+      "@cells/cells-component-core": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
