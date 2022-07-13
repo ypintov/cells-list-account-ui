@@ -65,6 +65,8 @@ export class CellsListAccountUi extends LitElement {
         return `S/ ${Number(amount).toFixed(2)}`;
       case 'USD':
         return `$ ${Number(amount).toFixed(2)}`;
+      case 'EUR':
+        return `€ ${Number(amount).toFixed(2)}`;
       default:
         return '';
     }

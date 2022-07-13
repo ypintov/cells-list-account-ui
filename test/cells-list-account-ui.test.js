@@ -42,6 +42,10 @@ suite('CellsListAccountUi', () => {
   });
 
   test('Method _formatAmount', async () => {
+    el._formatAmount('EUR', 100);
+  });
+
+  test('Method _formatAmount', async () => {
     el._formatAmount('', 0);
   });
 
