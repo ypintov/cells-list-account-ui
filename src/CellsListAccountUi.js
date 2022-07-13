@@ -92,6 +92,7 @@ export class CellsListAccountUi extends LitElement {
                           subheading=${account.productName}
                           button-text="Ver detalle"
                           @button-click=${() => this._onViewDetail(account)}
+                          badge-text="Cuenta"
                         >
                           <bbva-web-list-item-bullet slot="option">
                             Numero de cuenta: ${account.number}
